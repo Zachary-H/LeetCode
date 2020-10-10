@@ -15,7 +15,7 @@ public:
                 break;
             }
 
-            mid = (left + right) >> 1;
+             mid = (left + right) >> 1;
 
             if(numbers[left] == numbers[right] && numbers[left] == numbers[mid])
             {

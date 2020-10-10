@@ -13,6 +13,6 @@ public:
             else ans[right--] = val;
         }
 
-        return ans;
+         return ans;
     }
 };
