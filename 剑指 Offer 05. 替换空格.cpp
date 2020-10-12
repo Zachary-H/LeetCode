@@ -1,4 +1,4 @@
-#include <iostream>    //½£Ö¸ Offer 05. Ìæ»»¿Õ¸ñ(2020.10.4)
+#include <iostream>    
 using namespace std;
 
 class Solution {
