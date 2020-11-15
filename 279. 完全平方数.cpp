@@ -1,0 +1,17 @@
+class Solution {
+public:
+    int numSquares(int n) {
+        vector<int> res(n+1, INT_MAX);
+        res[0] = 0;
+
+        for(int i = 1; i <= n; i++)
+        {
+            for(int j = 1; i-j*j >= 0; j++)
+            {
+                res[i] = min(res[i], res[i-j*j]+1);
+            }
+        }
+
+        return res[n];
+    }
+};
