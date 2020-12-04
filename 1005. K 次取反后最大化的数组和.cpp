@@ -17,7 +17,7 @@ public:
             }
         }
 
-        while(K--) A[A.size() - 1] *= -1;
+        if(K % 2 != 0) A[A.size() - 1] *= -1;
 
         int res = 0;
         for(int i : A) res += i;
