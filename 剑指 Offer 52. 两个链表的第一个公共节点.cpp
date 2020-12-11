@@ -16,6 +16,7 @@ public:
             len++;
             head = head->next;
         }
+
         return len;
     }
 
