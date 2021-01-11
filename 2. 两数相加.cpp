@@ -43,7 +43,6 @@ public:
         {
             p->next = new ListNode(1);
         }
-
         return res->next;
     }
 };
