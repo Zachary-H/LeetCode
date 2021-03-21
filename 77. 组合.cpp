@@ -2,6 +2,7 @@ class Solution {
 private:
     vector<vector<int>> res;
     vector<int> tmp;
+
 public:
     void backtrack(int n, int k, int index)
     {
